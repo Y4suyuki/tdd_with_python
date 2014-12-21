@@ -1,0 +1,12 @@
+* TDD with Python
+
+** Chapter 6
+*** Ensuring test isolation in Functional Tests
+django's LiveServerTestCase create live server for functional tests
+create functional_tests directory and move functional_test.py into the directory and rename it
+to tests.py.
+insert 'from django.test import LiveServerTestCase' in functional test code and start test with
+
+python manage.py test functional_tests
+
+useful git command
